@@ -19,7 +19,6 @@ class Presupuesto {
 
 	nuevoGasto(gasto) {
 		this.gastos = [...this.gastos, gasto];
-		console.log(this.gastos);
 	}
 }
 
@@ -47,9 +46,27 @@ class UI {
 	}
 
 	agregarGastoListado(gastos) {
+		this.limpiarHTML();
 		gastos.forEach((gasto) => {
-			console.log(gasto);
+			const { cantidad, nombre, id } = gasto;
+
+			const nuevoGasto = document.createElement('li');
+			nuevoGasto.className = 'list-group-item d-flex justify-content-between align-items-center';
+			nuevoGasto.setAttribute('data-id', id);
+			nuevoGasto.innerHTML = `${nombre} <span class="badge badge-primary badge-pill">${cantidad}</span>
+			`;
+			const btnBorrar = document.createElement('button');
+			btnBorrar.classList.add('btn', 'btn-danger', 'borrar-gasto');
+			btnBorrar.innerHTML = 'Borrar &times;';
+			nuevoGasto.appendChild(btnBorrar);
+			gastoListado.appendChild(nuevoGasto);
 		});
+	}
+
+	limpiarHTML() {
+		while (gastoListado.firstChild) {
+			gastoListado.removeChild(gastoListado.firstChild);
+		}
 	}
 }
 const ui = new UI();
