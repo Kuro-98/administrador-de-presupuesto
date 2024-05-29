@@ -27,7 +27,7 @@ Una herramienta interactiva desarrollada en JavaScript puro para gestionar tus g
 
 ## Instrucciones de Despliegue
 
-1. Clona este repositorio: `git clone https://github.com/tu-usuario/administrador-presupuesto.git`
+1. Clona este repositorio: `git clone git@github.com:Kuro-98/administrador-de-presupuesto.git`
 2. Abre el archivo `index.html` en tu navegador favorito.
 3. Introduce tu presupuesto inicial y comienza a gestionar tus gastos.
 
