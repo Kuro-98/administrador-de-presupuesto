@@ -19,11 +19,12 @@ Una herramienta interactiva desarrollada en JavaScript puro para gestionar tus g
 
 ## Lecciones Aprendidas
 
-- **Manipulación del DOM:** Aprendiste a seleccionar y modificar elementos del DOM, crear elementos dinámicamente y actualizar la interfaz de usuario en respuesta a las interacciones del usuario.
-- **Uso de Clases en JavaScript:** Implementaste clases para estructurar tu código de manera más organizada y mantener la lógica del negocio (manejo del presupuesto) separada de la lógica de la interfaz de usuario.
+- **Manipulación del DOM:** Aprendí a seleccionar y modificar elementos del DOM, crear elementos dinámicamente y actualizar la interfaz de usuario en respuesta a las interacciones del usuario.
+- **Uso de Clases en JavaScript:** Implementé clases para estructurar mi código de manera más organizada y mantener la lógica del negocio (manejo del presupuesto) separada de la lógica de la interfaz de usuario.
 - **Gestión de Eventos:** Manejo de eventos del DOM para responder a las acciones del usuario, como la adición y eliminación de gastos.
-- **Validación de Entradas:** Implementaste validaciones para asegurar que los datos ingresados por el usuario sean correctos y significativos.
-- **Manejo de Estado:** Aprendiste a mantener y actualizar el estado de la aplicación (presupuesto y gastos) y reflejar estos cambios en la interfaz de usuario.
+- **Validación de Entradas:** Implementé validaciones para asegurar que los datos ingresados por el usuario sean correctos y significativos.
+- **Manejo de Estado:** Aprendí a mantener y actualizar el estado de la aplicación (presupuesto y gastos) y reflejar estos cambios en la interfaz de usuario.
+
 
 ## Instrucciones de Despliegue
 
